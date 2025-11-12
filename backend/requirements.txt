@@ -1,0 +1,11 @@
+flask
+flask-cors
+numpy
+pandas
+scikit-learn
+joblib
+nltk
+keras
+tensorflow
+sqlalchemy
+python-dotenv
