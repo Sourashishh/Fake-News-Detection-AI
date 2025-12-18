@@ -37,23 +37,9 @@ Model: Logistic Regression / Naive Bayes / Random Forest (based on your implemen
 
 Dataset: Labeled Fake and Real News Dataset (CSV format)
 
-4. Project Structure
 
-Fake-News-Detector/
-│
-├── data/
-│   └── news_dataset.csv
-│
-├── model/
-│   └── fake_news_model.pkl
-│
-├── app.py
-├── train.py
-├── preprocess.py
-├── requirements.txt
-└── README.md
 
-5. How It Works
+4. How It Works
 
 Data Collection: Uses labeled news articles (fake/real)
 
@@ -73,10 +59,9 @@ Model Training: Trains a classifier on processed text
 
 Prediction: Predicts authenticity of unseen news articles
 
-6. Installation & Usage
+5. Installation & Usage
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/fake-news-detector.git
-cd fake-news-detector
+
 
 2️⃣ Install Dependencies
 pip install -r requirements.txt
@@ -87,11 +72,11 @@ python train.py
 4️⃣ Run the Application
 python app.py
 
-7. Sample Output
+6. Sample Output
 Input News: "Breaking: Scientists discover new energy source..."
 Prediction: REAL NEWS ✅
 
-8. Results
+7. Results
 
 Achieved high accuracy on validation data
 
@@ -99,7 +84,7 @@ Effectively distinguishes misleading content from legitimate news
 
 Performs well on unseen data with minimal overfitting
 
-9. Future Enhancements
+8. Future Enhancements
 
 Integrate Deep Learning models (LSTM / Transformers)
 
@@ -109,12 +94,12 @@ Improve UI with a full-featured web dashboard
 
 Deploy using Docker / Cloud Platforms
 
-10.  Author
+9.  Author
 
 Sourashish Majumdar
 B.Tech CSE (IoT & Intelligent Systems)
 Interested in AI, NLP, and Full-Stack Development
 
-11. License
+10. License
 
 This project is licensed under the MIT License – feel free to use and modify it.
